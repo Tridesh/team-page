@@ -4,7 +4,7 @@ import "./style.css";
 const Home = () => {
     return (
         <div>
-            This the team page
+            <div className="text1">Web Team 😎</div>
             <div className="top-border"></div>
             <div className="scrollBar1">
                 <div className="profileCard">
