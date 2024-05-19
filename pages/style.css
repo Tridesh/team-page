@@ -1,7 +1,24 @@
 body {
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
-img {
-    border-radius: 60px;
+.scrollBar1 {
+    overflow-x: auto;
+}
+#first {
+    border-radius: 4vw;
+    width: 40vh;
+    height: 60vh;
+    margin-left: 40vw;
+}
+.card {
+    border-radius: 4vw;
+    width: 40vh;
+    margin-left: 8vw;
+    height: 60vh;
+}
+.profileCard {
+    display: flex;
+    flex-direction: row;
 }
