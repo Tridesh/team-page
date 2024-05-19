@@ -1,7 +1,11 @@
+import Link from 'next/link';
+
 export default function Home() {
-    return(
+  return (
     <div>
-        <a href = "/pages/page.jsx"><div>Team page</div></a>
+      <Link href="./page">
+        Team page
+      </Link>
     </div>
-    ); 
+  );
 }
