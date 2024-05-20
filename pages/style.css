@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .top-border {
-    height: 0.5vh; 
+    height: 1vh; 
     margin-bottom: 2vh;
     background-color: white;
     position: relative;
