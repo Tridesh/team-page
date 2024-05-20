@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .top-border {
-    height: 1vh; 
+    height: 0.5vh; 
     margin-bottom: 2vh;
     background-color: white;
     position: relative;
@@ -15,19 +15,25 @@ body {
 }
 .progress {
     height: 100%;
-    background-color: blue;
+    background: linear-gradient(to right, rgb(70, 70, 183), rgb(184, 54, 145), rgb(142, 7, 142));
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 10vw;
+    height: 0.5vh;
+    box-shadow: 
+        0 0 10px rgba(70, 70, 183, 1),
+        0 0 20px rgba(184, 54, 145, 1),
+        0 0 30px rgba(142, 7, 142, 1);
 }
 .bottom-border {
     width: 60vw;
-    height: 1vh;
+    height: 0.5vh;
     margin-left: 4vw; 
     margin-top: 2vh;
     background-color: white;
     position: relative;
+    border-radius: 10vw;
 }
 .scrollBar1 {
     margin-left: 5vw; 
