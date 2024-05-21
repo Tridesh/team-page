@@ -1,4 +1,4 @@
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     background-color: black;
@@ -84,4 +84,133 @@ body {
 }
 .left{
     margin-left: 0 !important;
+} */
+/* style.css */
+
+/* style.css */
+
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-border {
+    height: 0.5vh;
+    margin-bottom: 2vh;
+    background-color: white;
+    position: relative;
+    border-radius: 10vw;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(to right, rgb(70, 70, 183), rgb(184, 54, 145), rgb(142, 7, 142));
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10vw;
+    height: 0.5vh;
+    box-shadow: 
+        0 0 10px rgba(70, 70, 183, 1),
+        0 0 20px rgba(184, 54, 145, 1),
+        0 0 30px rgba(142, 7, 142, 1);
+}
+
+.bottom-border {
+    width: 60vw;
+    height: 0.5vh;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    background-color: white;
+    position: relative;
+    border-radius: 10vw;
+}
+
+.scrollContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.scrollBar1 {
+    overflow-x: auto;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    scrollbar-width: none;
+}
+
+.scrollBar1::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    border-radius: 4vw;
+    width: calc(60vw / 2.5 - 4vw);
+    margin: 0 2vw;
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.profileCard {
+    display: flex;
+}
+
+.header {
+    font-size: 4rem;
+    text-align: center;
+    color: aqua;
+}
+
+.row-1, .row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+.desc {
+    padding-left: 3vw;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.scrollin {
+    width: 60vw;
+    padding: 0;
+    position: relative;
+}
+
+.left {
+    margin-left: 0 !important;
+}
+
+.scrollButton {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.scrollButton.left {
+    left: 0;
+}
+
+.scrollButton.right {
+    right: 0;
 }
