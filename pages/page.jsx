@@ -606,9 +606,151 @@ const Home = () => {
                         <button className="scrollButton left" onClick={() => scrollLeft(scrollSectionRef1.current, setViewedPercentage1, setIntervalId1, intervalId1)}>&lt;</button>
                         <div className="scrollBar1" ref={scrollSectionRef1}>
                             <div className="profileCard">
-                                {[...Array(10)].map((_, index) => (
-                                    <div key={index} className="card">Card {index + 1}</div>
-                                ))}
+                            <div className="profileCard">
+                                <div className="scroll-bar">
+                                    <div className="card" id="card1">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card2">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card3">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card4">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card5">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card6">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card7">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card8">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card9">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                    <div className="card" id="card10">
+                                        <div className="commet" id="commet1"></div>
+                                        <div className="commet" id="commet2"></div>
+                                        <div className="commet" id="commet3"></div>
+                                        <div className="commet" id="commet4"></div>
+                                        <div className="star" id="star1"></div>
+                                        <div className="star" id="star2"></div>
+                                        <div className="star" id="star3"></div>
+                                        <div className="text">
+                                            <div className="name">Jack Sparrow</div>
+                                            <div className="designation">Web Sub Head</div>
+                                        </div>
+                                        <img className="pic1" src="./pic.png" alt="pic" />
+                                    </div>
+                                </div>
+                        </div>
+
                             </div>
                         </div>
                         <button className="scrollButton right" onClick={() => scrollRight(scrollSectionRef1.current, setViewedPercentage1)}>&gt;</button>
