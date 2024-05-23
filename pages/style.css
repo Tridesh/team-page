@@ -150,7 +150,7 @@ body {
     display: none;
 }
 
-.card {
+/* .card {
     border-radius: 4vw;
     width: calc(60vw / 2.5 - 4vw);
     margin: 0 2vw;
@@ -160,8 +160,138 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+} */
+.card {
+    width: 20vw;
+    height: 25vw;
+    border: 0.1vw solid white;
+    margin-right: 3vw;
 }
-
+.commet {
+    position: relative;
+    left: 75%;
+    width: 8vw;
+    height: 0.5vh;
+    background: linear-gradient(90deg, #B9E9F9 12.91%, rgba(185, 233, 249, 0.24) 53.3%, rgba(185, 233, 249, 0) 100%);
+    border-radius: 16px 0 0 16px;
+    transform: rotate(225deg);
+    z-index: 0;
+}
+#commet1 {
+    animation: comet-1 2.3s infinite;
+}
+@keyframes comet-1 {
+    0% {
+      top: -10%; 
+      left: -10%;
+    }
+    100% {
+      top: 70%;
+      left: 60%;
+    }
+  }
+#commet1 {
+    animation: comet-1 2.3s infinite;
+}
+@keyframes comet-1 {
+    0% {
+      top: -10%; 
+      left: -10%;
+    }
+    100% {
+      top: 70%;
+      left: 60%;
+    }
+  }
+#commet2 {
+    position: relative;
+    top: -40%;
+    left: -10%;
+    animation: comet-2 2s infinite;
+}
+@keyframes comet-2 {
+    0% {
+      top: 5%; 
+      left: -40%;
+    }
+    100% {
+      top: 100%;
+      left: 65%;
+    }
+  }
+#commet3 {
+    position: relative;
+    left: 55%;
+    animation: comet-3 1.5s infinite;
+}
+@keyframes comet-3 {
+    0% {
+      top: 5%; 
+      left: 40%;
+    }
+    100% {
+      top: 70%;
+      left: 60%;
+    }
+  }
+#commet4 {
+    position: relative;
+    left: 45%;
+    animation: comet-4 2.5s infinite;
+}
+@keyframes comet-4 {
+    0% {
+      top: 5%; 
+      left: -60%;
+    }
+    100% {
+      top: 70%;
+      left: 65%;
+    }
+  }
+.text {
+    color: white;
+    z-index: 2;
+    position: relative;
+    top: 70%;
+    left: 25%;
+}
+.star {
+    width: 0.7vw;
+    height: 1vh;
+    background-color: white;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 2vw;
+    animation: star 4s infinite;
+    filter: blur(0.15vw);
+    
+}
+#star2 {
+    position: relative;
+    left: 70%;
+    width: 0.5vw;
+    height: 0.8vh;
+}
+#star3 {
+    position: relative;
+    left: 80%;
+    top: 40%;
+}
+#star4 {
+    position: relative;
+    left: 20%;
+    top: 0%;
+}
+@keyframes star {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .profileCard {
     display: flex;
 }
@@ -175,7 +305,8 @@ body {
 .row-1, .row-2 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4vh;
+    margin-bottom:10vh;
+    margin-top: 13vh;
 }
 
 .desc {
@@ -196,7 +327,7 @@ body {
 }
 
 .scrollButton {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: transparent;
     border: none;
     color: white;
     font-size: 2rem;
@@ -205,12 +336,31 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
 }
-
+.scrollButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
+    /* transform: scale(1.1); */
+} 
 .scrollButton.left {
     left: 0;
 }
 
 .scrollButton.right {
     right: 0;
+}
+img {
+    width: 18vw;
+    height: 24vw;
+    margin-right: 5vw;
+    position: relative;
+    margin-top: -5vw;
+    z-index: 1;
 }
