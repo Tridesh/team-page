@@ -909,6 +909,26 @@ const Home = () => {
                                             <div className="designation">Web Sub Head</div>
                                         </div>
                                         <img className="pic1" src="./pic.png" alt="pic" />
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
+                                        <div className="wave-parts"></div>
                                     </div>
                                 ))}
                             </div>
