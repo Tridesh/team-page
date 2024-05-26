@@ -678,3 +678,20 @@ body {
     left: 25%;
     color: black;
 }
+.links {
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.card:hover .links {
+    visibility: visible;
+}
+.card:hover .name-designation {
+    display: none;
+}
+.links > img {
+    width: 4vw;
+    margin-top: -1vh;
+}

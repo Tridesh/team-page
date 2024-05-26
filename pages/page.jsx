@@ -1005,6 +1005,11 @@ const Home = () => {
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
                     </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
+                    </div>
                 </div>
                 {/* Card 2 */}
                 <div className="card" id="card2">
@@ -1014,6 +1019,11 @@ const Home = () => {
                     <div className="name-designation">
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
+                    </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
                     </div>
                 </div>
                 {/* Card 3 */}
@@ -1025,6 +1035,11 @@ const Home = () => {
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
                     </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
+                    </div>
                 </div>
                 {/* Card 4 */}
                 <div className="card" id="card4">
@@ -1034,6 +1049,11 @@ const Home = () => {
                     <div className="name-designation">
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
+                    </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
                     </div>
                 </div>
                 {/* Card 5 */}
@@ -1045,6 +1065,11 @@ const Home = () => {
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
                     </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
+                    </div>
                 </div>
                 {/* Card 6 */}
                 <div className="card" id="card6">
@@ -1054,6 +1079,11 @@ const Home = () => {
                     <div className="name-designation">
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
+                    </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
                     </div>
                 </div>
                 {/* Card 7 */}
@@ -1065,6 +1095,11 @@ const Home = () => {
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
                     </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
+                    </div>
                 </div>
                 {/* Card 8 */}
                 <div className="card" id="card8">
@@ -1074,6 +1109,11 @@ const Home = () => {
                     <div className="name-designation">
                         <div className="name">Jack Sparrow</div>
                         <div className="web-team">Web Sub Head</div>
+                    </div>
+                    <div className="links">
+                        <img src="./insta.png" alt="insta"></img>
+                        <img src="./linkedin.png" alt="linkedin"></img>
+                        <img src="./facebook.png" alt="facebook"></img>
                     </div>
                 </div>
             </div>
