@@ -357,16 +357,7 @@ img {
         opacity: 1;
     }
 } */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-body {
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-}
-
-.top-border {
+/* .top-border {
     height: 0.5vh;
     margin-bottom: 2vh;
     background-color: white;
@@ -427,7 +418,7 @@ body {
     justify-content: center;
     font-size: 1.5rem;
 } */
-.card {
+/* .card {
     width: 20vw;
     height: 25vw;
     border: 0.1vw solid white;
@@ -613,7 +604,7 @@ body {
 .scrollButton:hover {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
-    /* transform: scale(1.1); */
+    
 } 
 .scrollButton.left {
     left: 0;
@@ -633,4 +624,57 @@ img {
 .wave-parts {
     width: 1vw;
     background: linear-gradient(violet, purple, blue);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: auto;
+}
+.scrollBar1 {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    background: linear-gradient(#42275a, #734b6d);
+    width: 18vw;
+    height: 45vh;
+    margin-right: 5vw;
+    border-radius: .3vw;
+}
+#card2 {
+    background: linear-gradient(#2c3e50, #bdc3c7);
+}
+#card3 {
+    background: linear-gradient( #000C40,  #c3c1fb);
+}
+#card4 {
+    background: linear-gradient(#0f3443, #34e89e);
+}
+#card5 {
+    background: linear-gradient(#20002c, #cbb4d4);
+}
+.image-back > img {
+    width: 15vw;
+    height: 44vh;
+    margin-left: .1vw;
+    margin-right: .1vw;
+    margin-top: -7vh;
+}
+.heading {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+}
+.sub-heads {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.name-designation {
+    position: relative;
+    left: 25%;
+    color: black;
 }
