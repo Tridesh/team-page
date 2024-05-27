@@ -641,7 +641,7 @@ body {
     background: linear-gradient(#42275a, #734b6d);
     width: 18vw;
     height: 45vh;
-    margin-right: 5vw;
+    margin-right: 3vw;
     border-radius: .3vw;
 }
 #card2 {
@@ -683,7 +683,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    animation: text 2s ease;
+    position: absolute;
+    margin-left: 1.5vw;
+}
+@keyframes text {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: 0%;
+    }
 }
 .card:hover .links {
     visibility: visible;
