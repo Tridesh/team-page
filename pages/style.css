@@ -4,26 +4,26 @@ body {
     overflow-y: hidden;
   }
   
-  .planet {
+.planet {
     position: relative;
     left: -15vw;
     top: 12vh;
     animation: planet-burst 1.6s ease-in forwards;
     animation-delay: 2s;
     opacity: 1;
-  }
-  .rot-planet {
+}
+.rot-planet {
     animation: rotate ease infinite;
-  }
-  @keyframes rotate {
+}
+@keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
     }
-  }
-  @keyframes planet-burst {
+}
+@keyframes planet-burst {
     0% {
       transform: scale(1);
       filter: hue-rotate(0deg);
@@ -42,10 +42,10 @@ body {
       filter: hue-rotate(0deg);
       opacity: 0; 
     }
-  }
+}
   
-  .missile {
-    transform: rotate(-30deg);
+.missile {
+    /* transform: rotate(-30deg); */
     position: relative;
     top: -2vh;
     left: -75vw;
@@ -56,32 +56,35 @@ body {
     animation-delay: 3,5s;
   }
   
-  @keyframes missile {
+@keyframes missile {
     0% {
       top: -40vh;
       left: 40vw;
     }
     100% {
       top: -2vh;
-      left: -85vw;
+      left: -75vw;
+      /* opacity: 0; */
     }
-  }
+}
   
-  .text {
+.text {
     position: relative;
     opacity: 0; 
     color: white;
     top: -40vh;
     left: 45vw;
     animation: text .5s ease forwards 3.5s;
-  }
+}
   
-  @keyframes text {
+@keyframes text {
     0% {
       opacity: 0;
     }
     100% {
       opacity: 1; 
     }
-  }
-  
+}
+.star {
+  width: 2vw;
+}
