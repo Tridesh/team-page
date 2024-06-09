@@ -1,3 +1,4 @@
+'use client'
 // import React from "react";
 import "./style.css";
 import React, { useEffect, useRef, useState } from "react";
@@ -212,19 +213,15 @@ const Home = () => {
                             <div className="profileCard">
                             {cardsData1.map((card) => (
                                     <div key={card.id} className="card" id={card.id}>
-                                        {/* <img src="./star.png" className="star1" id="star"></img>
-                                        <img src="./star.png" className="star2" id="star"></img>
-                                        <img src="./star.png" className="star3" id="star"></img>
-                                        <img src="./star.png" className="star4" id="star"></img> */}
                                         <img className="pic1" src="./pic.png" alt="pic" />
                                         <div className="name-designation">
                                             <div className="name">Jack Sparrow</div>
                                             <div className="web-team">Web Sub Head</div>
                                         </div>
                                         <div className="links">
-                                            <img src="public/facebook.png" alt="fb" />
-                                            <img src="public/insta.png" alt="insta" />
-                                            <img src="public/linkedin.png" alt="in" />
+                                            <img src="./facebook.png" alt="fb" />
+                                            <img src="./insta.png" alt="insta" />
+                                            <img src="./linkedin.png" alt="in" />
                                         </div>
                                 </div>
                                 ))}

@@ -1,7 +1,8 @@
 body {
     background-color: black;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    /* margin-left: -10vw; */
   }
   
 .planet {
@@ -68,7 +69,7 @@ body {
     }
 }
   
-.text {
+/* .text {
     position: relative;
     opacity: 0; 
     color: white;
@@ -76,7 +77,17 @@ body {
     left: 45vw;
     animation: text .5s ease forwards 3.5s;
 }
-  
+   */
+.text {
+    position: absolute; 
+    opacity: 0; 
+    color: white;
+    top: 12vh; 
+    left: 50%;  
+    transform: translateX(-50%); 
+    animation: text .5s ease forwards 3.5s;
+    text-align: center; 
+}
 @keyframes text {
     0% {
       opacity: 0;
