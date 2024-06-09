@@ -252,9 +252,9 @@ const Home = () => {
                                             <div className="web-team">Web Sub Head</div>
                                         </div>
                                         <div className="links">
-                                        <img src="public/facebook.png" alt="fb" />
-                                            <img src="public/insta.png" alt="insta" />
-                                            <img src="public/linkedin.png" alt="in" />
+                                        <img src="./facebook.png" alt="fb" />
+                                            <img src="./insta.png" alt="insta" />
+                                            <img src="./linkedin.png" alt="in" />
                                         </div>
                                 </div>
                                 ))}
@@ -294,9 +294,9 @@ const Home = () => {
                                             <div className="web-team">Web Sub Head</div>
                                         </div>
                                         <div className="links">
-                                            <img src="public/facebook.png" alt="fb" />
-                                            <img src="public/insta.png" alt="insta" />
-                                            <img src="public/linkedin.png" alt="in" />
+                                            <img src="./facebook.png" alt="fb" />
+                                            <img src="./insta.png" alt="insta" />
+                                            <img src="./linkedin.png" alt="in" />
                                         </div>
                                 </div>
                                 ))}
@@ -327,9 +327,9 @@ const Home = () => {
                                             <div className="web-team">Web Sub Head</div>
                                         </div>
                                         <div className="links">
-                                        <img src="public/facebook.png" alt="fb" />
-                                            <img src="public/insta.png" alt="insta" />
-                                            <img src="public/linkedin.png" alt="in" />
+                                        <img src="./facebook.png" alt="fb" />
+                                            <img src="./insta.png" alt="insta" />
+                                            <img src="./linkedin.png" alt="in" />
                                         </div>
                                 </div>
                                 ))}
