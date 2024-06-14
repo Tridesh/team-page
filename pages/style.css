@@ -280,3 +280,91 @@ body {
     left: 25%;
     color: black;
 }
+@media (max-width: 321px) and (min-width: 0px) {
+    .planet {
+        width: 500px;
+        top: -25vh;
+        left: -15vw;
+        animation-delay: 2.5s;
+    }
+    .missile {
+        transform: rotate(113deg);
+        width: 90vw;
+        animation: missile 3.7s ease-in-out forwards;
+    }
+    @keyframes missile {
+        0% {
+          top: -20vh;
+          left: 18vw;
+        }
+        100% {
+          top: -169vh;
+          left: 18vw;
+          /* opacity: 0; */
+        }
+    }
+}
+@media (max-width: 376px) and (min-width: 322px) {
+    .planet {
+        width: 500px;
+        top: -25vh;
+        left: -5vw;
+        animation-delay: 2.5s;
+    }
+    .missile {
+        transform: rotate(113deg);
+        width: 90vw;
+        animation: missile 3.7s ease-in-out forwards;
+    }
+    @keyframes missile {
+        0% {
+          top: -20vh;
+          left: 18vw;
+        }
+        100% {
+          top: -179vh;
+          left: 18vw;
+          /* opacity: 0; */
+        }
+    }
+}
+@media (max-width: 430px) and (min-width: 377px) {
+    .planet {
+        width: 500px;
+        top: -25vh;
+        left: 3vw;
+        animation-delay: 2.5s;
+    }
+    .missile {
+        transform: rotate(113deg);
+        width: 90vw;
+        animation: missile 3.7s ease-in-out forwards;
+    }
+    @keyframes missile {
+        0% {
+          top: -20vh;
+          left: 18vw;
+        }
+        100% {
+          top: -185vh;
+          left: 18vw;
+          /* opacity: 0; */
+        }
+    }
+}
+@media (min-width: 431px) and (max-width:770px) {
+    .missile {
+        width: 40vw;
+    }
+    @keyframes missile {
+        0% {
+          top: -80vh;
+          left: 40vw;
+        }
+        100% {
+          top: -20vh;
+          left: -95vw;
+          /* opacity: 0; */
+        }
+    }
+}
